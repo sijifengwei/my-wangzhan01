@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>升级款夜视轨迹摄像头 - 产品介绍页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero section-card" aria-labelledby="product-title">
+        <div class="hero__copy">
+          <p class="eyebrow">莲花接口通用 · 高清像素</p>
+          <h1 id="product-title">升级款夜视轨迹摄像头</h1>
+          <p class="hero__desc">夜视增强、防水耐用，适配倒车影像与车辆辅助观察场景。</p>
+          <div class="hero__badges" aria-label="产品卖点">
+            <span>高清夜视</span>
+            <span>轨迹辅助</span>
+            <span>莲花接口</span>
+          </div>
+        </div>
+
+        <div class="product-visual" aria-label="摄像头产品示意图">
+          <div class="bracket"></div>
+          <div class="camera-body">
+            <div class="lens">
+              <span></span>
+            </div>
+          </div>
+          <div class="wire wire--main"></div>
+          <div class="connector connector--red"></div>
+          <div class="connector connector--yellow"></div>
+        </div>
+      </section>
+
+      <section class="waterproof section-card" aria-labelledby="waterproof-title">
+        <div class="waterproof__text">
+          <p class="tagline">多层防水设计 · 无惧浸泡</p>
+          <h2 id="waterproof-title">IP68级防水</h2>
+          <p>密封结构提升防水表现，雨雪、洗车、涉水环境都能稳定使用。</p>
+        </div>
+        <div class="waterproof__scene" aria-hidden="true">
+          <div class="wave wave--one"></div>
+          <div class="wave wave--two"></div>
+          <div class="splash splash--left"></div>
+          <div class="splash splash--right"></div>
+          <div class="mini-camera"></div>
+        </div>
+      </section>
+
+      <section class="kit section-card" aria-labelledby="kit-title">
+        <div class="section-heading">
+          <span>产品配图</span>
+          <h2 id="kit-title">到手即装，配件齐全</h2>
+        </div>
+        <div class="kit-grid">
+          <article class="kit-item kit-item--camera">
+            <div class="kit-icon camera-icon"></div>
+            <h3>12V AHD160°</h3>
+            <p>广角优先AV接口</p>
+          </article>
+          <article class="kit-item">
+            <div class="kit-icon screws-icon"></div>
+            <h3>自攻螺丝</h3>
+            <p>固定安装更稳</p>
+          </article>
+          <article class="kit-item kit-item--wide">
+            <div class="kit-icon video-cable-icon"></div>
+            <h3>6米视频线</h3>
+            <p>车内走线更从容</p>
+          </article>
+          <article class="kit-item kit-item--wide">
+            <div class="kit-icon power-cable-icon"></div>
+            <h3>1米电源线</h3>
+            <p>快速接入供电</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="video section-card" aria-labelledby="video-title">
+        <div class="video__header">
+          <p class="tagline">产品视频</p>
+          <h2 id="video-title">放置视频</h2>
+          <p>可以把视频文件放到 <code>assets/product-video.mp4</code>，或在地址后追加 <code>?video=视频地址</code> 进行预览。</p>
+        </div>
+
+        <div class="video-frame" data-video-frame>
+          <video data-product-video data-default-video="./assets/product-video.mp4" controls playsinline preload="metadata" poster="" hidden>
+            您的浏览器暂不支持视频播放。
+          </video>
+          <div class="video-placeholder" data-video-placeholder>
+            <div class="play-mark" aria-hidden="true"></div>
+            <p>上传/填写视频后在这里播放</p>
+          </div>
+        </div>
+
+        <div class="video-actions">
+          <label class="upload-button">
+            <input data-video-upload type="file" accept="video/*" />
+            本地选择视频预览
+          </label>
+          <p class="video-tip">正式上线建议提供视频文件路径，我会替换为固定地址。</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
